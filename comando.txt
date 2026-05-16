@@ -1,0 +1,1 @@
+python -m nuitka --standalone --onefile --enable-plugin=pyside6 --windows-disable-console --lto=yes --jobs=8 --follow-imports --assume-yes-for-downloads --output-dir=build codice.py
